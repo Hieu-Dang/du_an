@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trang chủ</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<script type="text/javascript" src="js/js.js" ></script>
+	<div id="page">
+	
+ody-page">
+			<header>
+				<img src="img/logo.png">
+			</header>
+			<div class="clr"></div>
+			<nav id="main-nav">
+				<ul>
+					<li><a href="index.html">TRANG CHỦ</a></li>
+					<li><a href="tranglienket.html">ĐĂNG KÝ TÀI KHOẢN</a></li>
+				</ul>
+			</nav>
+			<div id="form2">
+				<table>
+					<tr>
+						<td colspan="3"><h2>Form đăng ký tài khoản</h2></td>
+					</tr>
+					<tr>
+						<td><a>Họ tên</a><a id="kytu">*</a></td>
+						<td><input type="text" id="ht"></td>
+						<td id="checkht"></td>
+					</tr>
+					<tr>
+						<td><a>Tuổi</a><a id="kytu">*</a></td>
+						<td><input type="text" id="t"></td>
+						<td id="checkt"></td>
+					</tr>
+					<tr>
+						<td><a>Địa chỉ Email</a><a id="kytu">*</a></td>
+						<td><input type="text" id="e"></td>
+						<td id="checke"></td>
+					</tr>
+					<tr>
+						<td><a>Giới tính</a><a id="kytu">*</a></td>
+						<td>
+							<form id="gt">
+								<input type="radio" name="gioitinh" value="nam">nam
+								<input type="radio" name="gioitinh" value="nu">nữ
+							</form>
+							
+						</td>
+						<td id="checkgt"></td>
+					</tr>
+					<tr>
+						<td><a>Chọn khóa học</a><a id="kytu">*</a></td>
+						<td>
+							<select id="kh">
+								<option value="0">--Vui lòng chọn--</option>
+								<option value="1">lập trình PHP</option>
+								<option value="2">Lập trình Java</option>
+								<option value="3">Lập trình C++</option>
+							</select>
+						</td>
+						<td id="checkckh"></td>
+					</tr>
+					<tr>
+						<td><a>Mật khẩu</a><a id="kytu">*</a></td>
+						<td><input type="password" id="mk"></td>
+						<td id="checkmk"></td>
+					</tr>
+					<tr>
+						<td><a>Nhập lại Mật khẩu</a><a id="kytu">*</a></td>
+						<td><input type="password" id="nlmk"></td>
+						<td id="checknlmk"></td>
+					</tr>
+					<tr>
+						<td><a>Ghi chú thêm</a></td>
+						<td><textarea></textarea></td>
+						<td id="checkgct"></td>
+					</tr>
+				</table>
+				<div style="margin-left: 100px; margin-top: 20px;">
+					<input type="button" value="Gửi thông tin" onclick="guithongtin()">
+					<input type="button" value="Xóa thông tin" onclick="xoathongtin()">
+				</div>
+			</div>
+			<div class="clr"></div>
+			<footer>
+				<a>Bản quyền thuộc ItPlus Academy</a>
+			</footer>
+		</div>
+	</div>
+</body>
+</html>
